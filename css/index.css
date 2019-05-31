@@ -236,6 +236,28 @@ header .logo {
   padding: 0 20px 35px 20px;
 }
 
+/* CONTACT */
+
+.contact-text-container {
+  margin: 20px;
+  text-align: center;
+}
+
+.contact-top-content img {
+  width: 100%;
+}
+
+.contact-middle-content {
+  margin: 20px;
+    text-align: center;
+
+}
+
+.contact-middle-content img {
+  border-radius: 50%;
+  margin: 20px;
+}
+
 /* FOOTER */
 
 footer {
