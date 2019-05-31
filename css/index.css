@@ -100,44 +100,44 @@ header .logo {
 }
 
 .top-content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+  border-bottom: 1px dashed black;
 }
 
 .top-content .text-container {
-    width: 48%;
-    padding: 0 1%;
-    padding-bottom: 20px;
+  width: 48%;
+  padding: 0 1%;
+  padding-bottom: 20px;
 }
 
 .middle-content {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
     border-bottom: 1px dashed black;
-}
+  }
 
-.middle-content h2 {
+  .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
-}
+  }
 
-.middle-content .boxes {
+  .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-}
+  }
 
 .middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    background: black;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  width: 12.5%;
+  height: 100px;
+  background: black;
+  margin: 20px 2.5%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .middle-content .boxes .box1 {
@@ -172,22 +172,66 @@ header .logo {
 }
 
 .bottom-content {
-    display: flex;
-    margin: 0 2% 20px;
-    justify-content: space-around;
+  display: flex;
+  margin: 0 2% 20px;
+  justify-content: space-around;
 }
 
 .bottom-content .text-container {
-    padding-right: 4%;
+  padding-right: 4%;
 }
 
 .bottom-content .text-container:last-child {
-    padding-right: 0;
+  padding-right: 0;
 }
 
+/* ABOUT PAGE */
+
+.about-top-content {
+  margin: 10px 0 15px 0;
+  border-bottom: 1px dashed black;
+}
+
+.about-top-content img {
+  margin-top: 10px;
+}
+
+.about-top-content .text-container {
+  padding: 20px;
+}
+
+.about-middle-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.about-card {
+  width: 370px;
+  margin: 15px 15px 50px 15px;
+  border-bottom: 1px dashed black;
+}
+
+.about-card img {
+  margin-bottom: 10px;
+}
+
+.about-card button {
+  font-size: 16px;
+  padding: 10px 25px;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+
+.about-bottom-content {
+  padding: 0 20px 35px 20px;
+}
+
+/* FOOTER */
+
 footer {
-    width: 100%;
-    background: black;
+  width: 100%;
+  background: black;
 }
 
 footer nav {
