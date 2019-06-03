@@ -71,6 +71,15 @@ p {
     margin: 0 auto;
 }
 
+body {
+  /* background-color: blanchedalmond; */
+  /* height:  */
+  /* background-image: linear-gradient(
+    to right bottom,
+    rgba(50,245,255,0.5),
+    rgba(0,0,0,0.9)
+  ); */
+}
 header {
   display: flex;
   flex-direction: row;
@@ -249,13 +258,44 @@ header .logo {
 
 .contact-middle-content {
   margin: 20px;
-    text-align: center;
-
+  text-align: center;
 }
 
 .contact-middle-content img {
   border-radius: 50%;
   margin: 20px;
+}
+
+.contact-method {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  /* padding: 20px 0; */
+  margin: 30px;
+  background-color: #eee;
+}
+
+.contact-method div {
+  width: 300px;
+  margin: 30px 0;
+}
+
+.contact-method div:last-child {
+  flex: 0 1 100%;
+}
+
+.contact-method a {
+  color: black;
+}
+
+@media(max-width: 800px) {
+  .contact-middle-content img {
+    width: 20%;
+  }
+  .contact-method {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 /* FOOTER */

@@ -4,8 +4,8 @@
 
 <head>
   <meta charset="utf-8" />
-
-  <title>Sprint Challenge - About</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sprint Challenge - Contact</title>
 
   <link href="https://fonts.googleapis.com/css?family=Roboto|Rubik" rel="stylesheet" />
   <link rel="stylesheet" href="css/index.css" />
@@ -15,7 +15,6 @@
 
 <body>
   <div class="container">
-
     <header>
       <img class="logo" src="./img/lambda-black.png" alt="Lambda logo">
       <nav>
@@ -38,17 +37,35 @@
 
       <section class="contact-middle-content">
         <div class="contact-container">
-          <img src="img/contact-person1.jpeg" alt="strategy" />
-          <img src="img/contact-person2.jpeg" alt="strategy" />
-          <img src="img/contact-person3.jpeg" alt="strategy" />
+          <img src="img/contact-person1.jpeg" alt="person1" />
+          <img src="img/contact-person2.jpeg" alt="person2" />
+          <img src="img/contact-person3.jpeg" alt="person3" />
         </div>
-        <h2>By Phone:</h2>
-        <p>1-888-888-888</p>
-        <br><br>
-        <h2>Email us at:</h2>
-        <a href="mailto:contact@lambdaschool.com">contact@lambdaschool.com</p>
+        <div class="contact-method">
+          <div>
+            <h2>By Phone:</h2>
+            <p>1-888-888-888</p>
+          </div>
+          <div>
+            <h2>Email us at:</h2>
+            <a href="mailto:contact@lambdaschool.com">contact@lambdaschool.com</a>
+          </div>
+          <div>
+            <h2>Drop us a note:</h2>
+            <form type="submit">
+              <label name="name" placeholder-text="First Name">Name:</label>
+              <input type="text"><br>
+              <label>Last Name:</label>
+              <input type="text"><br>
+              <label>Response Phone Number:</label>
+              <input type="tel"><br>
+              <label>Message:</label>
+              <textarea name="message" rows="10" cols="30">Type your note here</textarea>
+              <input type="submit" onclick="alert('Submission Sucessful, thanks!')"></input>
+            </form>
+          </div>
+        </div>
       </section>
-
 
       <footer>
         <nav>
